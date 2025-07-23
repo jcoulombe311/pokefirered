@@ -62,3 +62,9 @@ prefabs.json
 .vscode/*.*
 *.js
 *.sym
+
+# Ignore old compiler folder
+agbcc/
+
+# Ignore Windows Zone.Identifier files
+*.Zone.Identifier
