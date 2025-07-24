@@ -3741,6 +3741,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalOaksLabCharmander[]
     },
 };
 
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalOaksLabPikachu[] = {
+    {
+        .iv = 0,
+        .lvl = 5,
+        .species = SPECIES_PIKACHU,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalOaksLabEevee[] = {
+    {
+        .iv = 0,
+        .lvl = 5,
+        .species = SPECIES_EEVEE,
+    },
+};
+
 static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22EarlySquirtle[] = {
     {
         .iv = 50,
@@ -3783,6 +3799,36 @@ static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22EarlyCharmand
         .lvl = 9,
         .species = SPECIES_CHARMANDER,
         .moves = {MOVE_SCRATCH, MOVE_GROWL, MOVE_NONE, MOVE_NONE},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22EarlyPikachu[] = {
+    {
+        .iv = 50,
+        .lvl = 9,
+        .species = SPECIES_PIDGEY,
+        .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 9,
+        .species = SPECIES_PIKACHU,
+        .moves = {MOVE_THUNDER_SHOCK, MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_THUNDER_WAVE},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22EarlyEevee[] = {
+    {
+        .iv = 50,
+        .lvl = 9,
+        .species = SPECIES_PIDGEY,
+        .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 9,
+        .species = SPECIES_EEVEE,
+        .moves = {MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_SAND_ATTACK, MOVE_NONE},
     },
 };
 
@@ -3864,6 +3910,60 @@ static const struct TrainerMonNoItemCustomMoves sParty_RivalCeruleanCharmander[]
         .lvl = 18,
         .species = SPECIES_CHARMANDER,
         .moves = {MOVE_METAL_CLAW, MOVE_EMBER, MOVE_GROWL, MOVE_SCRATCH},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_RivalCeruleanPikachu[] = {
+    {
+        .iv = 50,
+        .lvl = 17,
+        .species = SPECIES_PIDGEOTTO,
+        .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_GUST, MOVE_QUICK_ATTACK},
+    },
+    {
+        .iv = 50,
+        .lvl = 16,
+        .species = SPECIES_ABRA,
+        .moves = {MOVE_TELEPORT, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 15,
+        .species = SPECIES_RATTATA,
+        .moves = {MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_QUICK_ATTACK, MOVE_NONE},
+    },
+    {
+        .iv = 100,
+        .lvl = 18,
+        .species = SPECIES_PIKACHU,
+        .moves = {MOVE_SHOCK_WAVE, MOVE_DOUBLE_TEAM, MOVE_QUICK_ATTACK, MOVE_THUNDER_WAVE},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_RivalCeruleanEevee[] = {
+    {
+        .iv = 50,
+        .lvl = 17,
+        .species = SPECIES_PIDGEOTTO,
+        .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_GUST, MOVE_QUICK_ATTACK},
+    },
+    {
+        .iv = 50,
+        .lvl = 16,
+        .species = SPECIES_ABRA,
+        .moves = {MOVE_TELEPORT, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 15,
+        .species = SPECIES_RATTATA,
+        .moves = {MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_QUICK_ATTACK, MOVE_NONE},
+    },
+    {
+        .iv = 100,
+        .lvl = 18,
+        .species = SPECIES_EEVEE,
+        .moves = {MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_SAND_ATTACK, MOVE_DIG},
     },
 };
 
@@ -5878,6 +5978,52 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneCharmander[] 
     },
 };
 
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnnePikachu[] = {
+    {
+        .iv = 50,
+        .lvl = 19,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 50,
+        .lvl = 16,
+        .species = SPECIES_RATICATE,
+    },
+    {
+        .iv = 50,
+        .lvl = 18,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_RAICHU,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneEevee[] = {
+    {
+        .iv = 50,
+        .lvl = 19,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 50,
+        .lvl = 16,
+        .species = SPECIES_RATICATE,
+    },
+    {
+        .iv = 50,
+        .lvl = 18,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_VAPOREON,
+    },
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerSquirtle[] = {
     {
         .iv = 100,
@@ -5962,6 +6108,62 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerCharman
     },
 };
 
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerPikachu[] = {
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 100,
+        .lvl = 23,
+        .species = SPECIES_EXEGGCUTE,
+    },
+    {
+        .iv = 100,
+        .lvl = 22,
+        .species = SPECIES_GYARADOS,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_RAICHU,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokemonTowerEevee[] = {
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_PIDGEOTTO,
+    },
+    {
+        .iv = 100,
+        .lvl = 23,
+        .species = SPECIES_EXEGGCUTE,
+    },
+    {
+        .iv = 100,
+        .lvl = 22,
+        .species = SPECIES_GYARADOS,
+    },
+    {
+        .iv = 100,
+        .lvl = 20,
+        .species = SPECIES_KADABRA,
+    },
+    {
+        .iv = 100,
+        .lvl = 25,
+        .species = SPECIES_VAPOREON,
+    },
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_RivalSilphSquirtle[] = {
     {
         .iv = 100,
@@ -6043,6 +6245,62 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalSilphCharmander[] =
         .iv = 150,
         .lvl = 40,
         .species = SPECIES_CHARIZARD,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalSilphPikachu[] = {
+    {
+        .iv = 100,
+        .lvl = 37,
+        .species = SPECIES_PIDGEOT,
+    },
+    {
+        .iv = 100,
+        .lvl = 38,
+        .species = SPECIES_EXEGGCUTE,
+    },
+    {
+        .iv = 100,
+        .lvl = 35,
+        .species = SPECIES_GYARADOS,
+    },
+    {
+        .iv = 100,
+        .lvl = 35,
+        .species = SPECIES_ALAKAZAM,
+    },
+    {
+        .iv = 150,
+        .lvl = 40,
+        .species = SPECIES_RAICHU,
+    },
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RivalSilphEevee[] = {
+    {
+        .iv = 100,
+        .lvl = 37,
+        .species = SPECIES_PIDGEOT,
+    },
+    {
+        .iv = 100,
+        .lvl = 38,
+        .species = SPECIES_EXEGGCUTE,
+    },
+    {
+        .iv = 100,
+        .lvl = 35,
+        .species = SPECIES_GYARADOS,
+    },
+    {
+        .iv = 100,
+        .lvl = 35,
+        .species = SPECIES_ALAKAZAM,
+    },
+    {
+        .iv = 150,
+        .lvl = 40,
+        .species = SPECIES_VAPOREON,
     },
 };
 
@@ -6160,6 +6418,84 @@ static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22LateCharmande
         .lvl = 53,
         .species = SPECIES_CHARIZARD,
         .moves = {MOVE_FLAMETHROWER, MOVE_WING_ATTACK, MOVE_SLASH, MOVE_SCARY_FACE},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22LatePikachu[] = {
+    {
+        .iv = 150,
+        .lvl = 47,
+        .species = SPECIES_PIDGEOT,
+        .moves = {MOVE_FEATHER_DANCE, MOVE_WING_ATTACK, MOVE_GUST, MOVE_QUICK_ATTACK},
+    },
+    {
+        .iv = 150,
+        .lvl = 45,
+        .species = SPECIES_RHYHORN,
+        .moves = {MOVE_TAKE_DOWN, MOVE_HORN_DRILL, MOVE_ROCK_BLAST, MOVE_FURY_ATTACK},
+    },
+    {
+        .iv = 150,
+        .lvl = 45,
+        .species = SPECIES_EXEGGCUTE,
+        .moves = {MOVE_SOLAR_BEAM, MOVE_SLEEP_POWDER, MOVE_POISON_POWDER, MOVE_STUN_SPORE},
+    },
+    {
+        .iv = 150,
+        .lvl = 45,
+        .species = SPECIES_GYARADOS,
+        .moves = {MOVE_HYDRO_PUMP, MOVE_TWISTER, MOVE_LEER, MOVE_RAIN_DANCE},
+    },
+    {
+        .iv = 150,
+        .lvl = 47,
+        .species = SPECIES_ALAKAZAM,
+        .moves = {MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_FUTURE_SIGHT, MOVE_DISABLE},
+    },
+    {
+        .iv = 250,
+        .lvl = 53,
+        .species = SPECIES_RAICHU,
+        .moves = {MOVE_THUNDERBOLT, MOVE_LIGHT_SCREEN, MOVE_BRICK_BREAK, MOVE_REST},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22LateEevee[] = {
+    {
+        .iv = 150,
+        .lvl = 47,
+        .species = SPECIES_PIDGEOT,
+        .moves = {MOVE_FEATHER_DANCE, MOVE_WING_ATTACK, MOVE_GUST, MOVE_QUICK_ATTACK},
+    },
+    {
+        .iv = 150,
+        .lvl = 45,
+        .species = SPECIES_RHYHORN,
+        .moves = {MOVE_TAKE_DOWN, MOVE_HORN_DRILL, MOVE_ROCK_BLAST, MOVE_FURY_ATTACK},
+    },
+    {
+        .iv = 150,
+        .lvl = 45,
+        .species = SPECIES_EXEGGCUTE,
+        .moves = {MOVE_SOLAR_BEAM, MOVE_SLEEP_POWDER, MOVE_POISON_POWDER, MOVE_STUN_SPORE},
+    },
+    {
+        .iv = 150,
+        .lvl = 45,
+        .species = SPECIES_GYARADOS,
+        .moves = {MOVE_HYDRO_PUMP, MOVE_TWISTER, MOVE_LEER, MOVE_RAIN_DANCE},
+    },
+    {
+        .iv = 150,
+        .lvl = 47,
+        .species = SPECIES_ALAKAZAM,
+        .moves = {MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_FUTURE_SIGHT, MOVE_DISABLE},
+    },
+    {
+        .iv = 250,
+        .lvl = 53,
+        .species = SPECIES_VAPOREON,
+        .moves = {MOVE_ACID_ARMOR, MOVE_BITE, MOVE_AURORA_BEAM, MOVE_WATER_PULSE},
     },
 };
 
@@ -6295,6 +6631,96 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionFirstCharmander[] =
         .species = SPECIES_CHARIZARD,
         .heldItem = ITEM_SITRUS_BERRY,
         .moves = {MOVE_FIRE_BLAST, MOVE_AERIAL_ACE, MOVE_SLASH, MOVE_FIRE_SPIN},
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ChampionFirstPikachu[] = {
+    {
+        .iv = 255,
+        .lvl = 59,
+        .species = SPECIES_PIDGEOT,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_AERIAL_ACE, MOVE_FEATHER_DANCE, MOVE_SAND_ATTACK, MOVE_WHIRLWIND},
+    },
+    {
+        .iv = 255,
+        .lvl = 57,
+        .species = SPECIES_ALAKAZAM,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_PSYCHIC, MOVE_FUTURE_SIGHT, MOVE_RECOVER, MOVE_REFLECT},
+    },
+    {
+        .iv = 255,
+        .lvl = 59,
+        .species = SPECIES_RHYDON,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_TAKE_DOWN, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB, MOVE_SCARY_FACE},
+    },
+    {
+        .iv = 255,
+        .lvl = 59,
+        .species = SPECIES_EXEGGUTOR,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_GIGA_DRAIN, MOVE_EGG_BOMB, MOVE_SLEEP_POWDER, MOVE_LIGHT_SCREEN},
+    },
+    {
+        .iv = 255,
+        .lvl = 61,
+        .species = SPECIES_GYARADOS,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_HYDRO_PUMP, MOVE_DRAGON_RAGE, MOVE_BITE, MOVE_THRASH},
+    },
+    {
+        .iv = 255,
+        .lvl = 63,
+        .species = SPECIES_RAICHU,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_THUNDER, MOVE_IRON_TAIL, MOVE_LIGHT_SCREEN, MOVE_BRICK_BREAK},
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ChampionFirstEevee[] = {
+    {
+        .iv = 255,
+        .lvl = 59,
+        .species = SPECIES_PIDGEOT,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_AERIAL_ACE, MOVE_FEATHER_DANCE, MOVE_SAND_ATTACK, MOVE_WHIRLWIND},
+    },
+    {
+        .iv = 255,
+        .lvl = 57,
+        .species = SPECIES_ALAKAZAM,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_PSYCHIC, MOVE_FUTURE_SIGHT, MOVE_RECOVER, MOVE_REFLECT},
+    },
+    {
+        .iv = 255,
+        .lvl = 59,
+        .species = SPECIES_RHYDON,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_TAKE_DOWN, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB, MOVE_SCARY_FACE},
+    },
+    {
+        .iv = 255,
+        .lvl = 59,
+        .species = SPECIES_ARCANINE,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_EXTREME_SPEED, MOVE_FLAMETHROWER, MOVE_ROAR, MOVE_BITE},
+    },
+    {
+        .iv = 255,
+        .lvl = 61,
+        .species = SPECIES_EXEGGUTOR,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_GIGA_DRAIN, MOVE_EGG_BOMB, MOVE_SLEEP_POWDER, MOVE_LIGHT_SCREEN},
+    },
+    {
+        .iv = 255,
+        .lvl = 63,
+        .species = SPECIES_VAPOREON,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_ACID_ARMOR, MOVE_REST},
     },
 };
 
@@ -10845,6 +11271,96 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionRematchCharmander[]
         .species = SPECIES_CHARIZARD,
         .heldItem = ITEM_SITRUS_BERRY,
         .moves = {MOVE_FIRE_BLAST, MOVE_DRAGON_CLAW, MOVE_AERIAL_ACE, MOVE_EARTHQUAKE},
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ChampionRematchPikachu[] = {
+    {
+        .iv = 255,
+        .lvl = 72,
+        .species = SPECIES_HERACROSS,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_COUNTER, MOVE_ROCK_TOMB},
+    },
+    {
+        .iv = 255,
+        .lvl = 73,
+        .species = SPECIES_ALAKAZAM,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_CALM_MIND, MOVE_REFLECT},
+    },
+    {
+        .iv = 255,
+        .lvl = 72,
+        .species = SPECIES_TYRANITAR,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_AERIAL_ACE},
+    },
+    {
+        .iv = 255,
+        .lvl = 73,
+        .species = SPECIES_EXEGGUTOR,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SLEEP_POWDER, MOVE_LIGHT_SCREEN},
+    },
+    {
+        .iv = 255,
+        .lvl = 73,
+        .species = SPECIES_GYARADOS,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_HYDRO_PUMP, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_HYPER_BEAM},
+    },
+    {
+        .iv = 255,
+        .lvl = 75,
+        .species = SPECIES_RAICHU,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_THUNDER, MOVE_IRON_TAIL, MOVE_LIGHT_SCREEN, MOVE_BRICK_BREAK},
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ChampionRematchEevee[] = {
+    {
+        .iv = 255,
+        .lvl = 72,
+        .species = SPECIES_HERACROSS,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_COUNTER, MOVE_ROCK_TOMB},
+    },
+    {
+        .iv = 255,
+        .lvl = 73,
+        .species = SPECIES_ALAKAZAM,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_CALM_MIND, MOVE_REFLECT},
+    },
+    {
+        .iv = 255,
+        .lvl = 72,
+        .species = SPECIES_TYRANITAR,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_AERIAL_ACE},
+    },
+    {
+        .iv = 255,
+        .lvl = 73,
+        .species = SPECIES_ARCANINE,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_EXTREME_SPEED, MOVE_OVERHEAT, MOVE_AERIAL_ACE, MOVE_IRON_TAIL},
+    },
+    {
+        .iv = 255,
+        .lvl = 73,
+        .species = SPECIES_EXEGGUTOR,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SLEEP_POWDER, MOVE_LIGHT_SCREEN},
+    },
+    {
+        .iv = 255,
+        .lvl = 75,
+        .species = SPECIES_VAPOREON,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_ACID_ARMOR, MOVE_REST},
     },
 };
 

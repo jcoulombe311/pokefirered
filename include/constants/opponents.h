@@ -746,12 +746,30 @@
 #define TRAINER_CHAMPION_REMATCH_BULBASAUR       740
 #define TRAINER_CHAMPION_REMATCH_CHARMANDER      741
 #define TRAINER_CUE_BALL_PAXTON                  742
+#define TRAINER_RIVAL_OAKS_LAB_PIKACHU           743
+#define TRAINER_RIVAL_OAKS_LAB_EEVEE             744
+#define TRAINER_RIVAL_ROUTE22_EARLY_PIKACHU      745
+#define TRAINER_RIVAL_ROUTE22_EARLY_EEVEE        746
+#define TRAINER_RIVAL_CERULEAN_PIKACHU           747
+#define TRAINER_RIVAL_CERULEAN_EEVEE             748
+#define TRAINER_RIVAL_SS_ANNE_PIKACHU            749
+#define TRAINER_RIVAL_SS_ANNE_EEVEE              750
+#define TRAINER_RIVAL_POKEMON_TOWER_PIKACHU      751
+#define TRAINER_RIVAL_POKEMON_TOWER_EEVEE        752
+#define TRAINER_RIVAL_SILPH_PIKACHU              753
+#define TRAINER_RIVAL_SILPH_EEVEE                754
+#define TRAINER_RIVAL_ROUTE22_LATE_PIKACHU       755
+#define TRAINER_RIVAL_ROUTE22_LATE_EEVEE         756
+#define TRAINER_CHAMPION_FIRST_PIKACHU           757
+#define TRAINER_CHAMPION_FIRST_EEVEE             758
+#define TRAINER_CHAMPION_REMATCH_PIKACHU         759
+#define TRAINER_CHAMPION_REMATCH_EEVEE           760
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is 
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define NUM_TRAINERS                             743
+#define NUM_TRAINERS                             745
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

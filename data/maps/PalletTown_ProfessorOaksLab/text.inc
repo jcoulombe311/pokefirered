@@ -68,20 +68,20 @@ PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
     .string "Don't bother coming around to\n"
     .string "my place after this!$"
 
-PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
+PalletTown_ProfessorOaksLab_Text_OakFiveMonsChooseOne::
     .string "OAK: {RIVAL}?\n"
     .string "Let me think…\p"
     .string "Oh, that's right, I told you to\n"
     .string "come! Just wait!\p"
     .string "Here, {PLAYER}.\p"
-    .string "There are three POKéMON here.\p"
+    .string "There are five POKéMON here.\p"
     .string "Haha!\p"
     .string "The POKéMON are held inside\n"
     .string "these POKé BALLS.\p"
     .string "When I was young, I was a serious\n"
     .string "POKéMON TRAINER.\p"
     .string "But now, in my old age, I have\n"
-    .string "only these three left.\p"
+    .string "only these five left.\p"
     .string "You can have one.\n"
     .string "Go on, choose!$"
 
@@ -91,7 +91,7 @@ PalletTown_ProfessorOaksLab_Text_OakBePatientRival::
 
 PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
     .string "OAK: Now, {PLAYER}.\p"
-    .string "Inside those three POKé BALLS are\n"
+    .string "Inside those five POKé BALLS are\n"
     .string "POKéMON.\p"
     .string "Which one will you choose for\n"
     .string "yourself?$"
@@ -117,6 +117,18 @@ PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
     .string "It's very easy to raise.\p"
     .string "So, {PLAYER}, you want to go with\n"
     .string "the GRASS POKéMON BULBASAUR?$"
+
+PalletTown_ProfessorOaksLab_Text_OakChoosingPikachu::
+    .string "Oh! PIKACHU is your choice.\n"
+    .string "An ELECTRIC POKéMON full of spark.\p"
+    .string "So, {PLAYER}, you're going with the\n"
+    .string "ELECTRIC POKéMON PIKACHU?$"
+
+PalletTown_ProfessorOaksLab_Text_OakChoosingEevee::
+    .string "Hmm! EEVEE is your choice.\n"
+    .string "It evolves in many ways.\p"
+    .string "So, {PLAYER}, you want to choose the\n"
+    .string "NORMAL POKéMON EEVEE?$"
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
     .string "This POKéMON is really quite\n"
@@ -237,7 +249,7 @@ PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls::
     .string "They contain POKéMON!$"
 
 PalletTown_ProfessorOaksLab_Text_OaksLastMon::
-    .string "That's PROF. OAK's last POKéMON.$"
+    .string "You may only choose one!.$"
 
 PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu::
     .string "Press START to open the MENU!$"
